@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
 
-    private static final String DATASTORE_BASE_URL = "http://3.236.19.94:8081/users";
+    private static final String DATASTORE_BASE_URL = "http://3.86.195.31:8081/users";
 
     @Autowired
     private RestTemplate restTemplate;
@@ -46,3 +46,4 @@ public class UserServiceImpl implements UserService {
 }
 
 //test
+//test2
