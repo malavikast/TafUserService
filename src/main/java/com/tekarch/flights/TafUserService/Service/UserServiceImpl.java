@@ -44,3 +44,5 @@ public class UserServiceImpl implements UserService {
         restTemplate.delete(DATASTORE_BASE_URL + "/" + id);
     }
 }
+
+//test
